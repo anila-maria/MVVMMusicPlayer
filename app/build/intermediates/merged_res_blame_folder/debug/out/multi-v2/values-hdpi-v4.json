@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.app-mergeDebugResources-51:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/b00e81fc0907864c22f9ed7595e9f483/transformed/jetified-ColoredShadowImageView-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "38",
+                        "endOffsets": "89"
+                    }
+                },
+                {
+                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/eb5d1eed3a11caf3d4fefdbfb4fbdbff/transformed/appcompat-1.5.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "94",
+                        "endLines": "7",
+                        "endColumns": "13",
+                        "endOffsets": "366"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.alexei-frolo:WaveformSeekBar:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3c20a9ce48ae5aaafb571b528cb14e46/transformed/jetified-WaveformSeekBar-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3c20a9ce48ae5aaafb571b528cb14e46/transformed/jetified-WaveformSeekBar-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3c20a9ce48ae5aaafb571b528cb14e46/transformed/jetified-WaveformSeekBar-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.alexei-frolo/WaveformSeekBar/1.0/c28a005fb398aed2aee1abb5fa96cd494e29f75c/WaveformSeekBar-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/base.xml",
+        "source": "com.app-main-55:/layout/base.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_main.xml",
+        "source": "com.app-main-55:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/activity_splash.xml",
+        "source": "com.app-main-55:/layout/activity_splash.xml"
+    }
+]
