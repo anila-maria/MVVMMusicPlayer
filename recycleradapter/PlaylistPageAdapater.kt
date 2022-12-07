@@ -1,4 +1,4 @@
-package com.codecx.musicplayer.recycleradapter
+package com.recycleradapter
 
 import android.app.Activity
 import android.view.LayoutInflater
