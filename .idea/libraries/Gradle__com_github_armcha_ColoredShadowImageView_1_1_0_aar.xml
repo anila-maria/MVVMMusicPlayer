@@ -10,6 +10,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ccec310e2d002cea174f0ed4dd3b3d2/transformed/jetified-ColoredShadowImageView-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ccec310e2d002cea174f0ed4dd3b3d2/transformed/jetified-ColoredShadowImageView-1.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ccec310e2d002cea174f0ed4dd3b3d2/transformed/jetified-ColoredShadowImageView-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4b2034ff55fbd7835d531f87dc8d7033/transformed/jetified-ColoredShadowImageView-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4b2034ff55fbd7835d531f87dc8d7033/transformed/jetified-ColoredShadowImageView-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4b2034ff55fbd7835d531f87dc8d7033/transformed/jetified-ColoredShadowImageView-1.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.armcha/ColoredShadowImageView/1.1.0/774c51f01f88cead51469b5909b2bc14d03f0c69/ColoredShadowImageView-1.1.0-javadoc.jar!/" />
