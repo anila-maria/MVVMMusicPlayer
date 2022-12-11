@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.PopupMenu
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.R
-import com.databinding.PlaylistItemBinding
-import com.musicdatabase.entities.PlaylistModel
-import com.repo.PlaylistRepository
-import com.musicgraphicalinterfaces.Fragments.PlaylistFragment
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.PlaylistItemBinding
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.repo.PlaylistRepository
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.PlaylistFragment
 
 class PlaylistAdapter(
     var context: Activity,

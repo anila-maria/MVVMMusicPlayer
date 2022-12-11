@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.view.View
 import android.view.ViewGroup
