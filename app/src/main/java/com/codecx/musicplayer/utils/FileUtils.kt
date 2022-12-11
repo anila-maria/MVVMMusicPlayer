@@ -1,4 +1,4 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.content.Context
 import android.content.Intent

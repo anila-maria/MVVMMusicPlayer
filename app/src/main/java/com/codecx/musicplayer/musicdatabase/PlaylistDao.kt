@@ -1,10 +1,10 @@
-package com.musicdatabase
+package com.codecx.musicplayer.musicdatabase
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
 
 @Dao
 interface PlaylistDao {

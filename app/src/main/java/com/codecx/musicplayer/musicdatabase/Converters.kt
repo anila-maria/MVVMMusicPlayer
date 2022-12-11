@@ -1,4 +1,4 @@
-package com.musicdatabase
+package com.codecx.musicplayer.musicdatabase
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

@@ -1,7 +1,7 @@
-package com.musicdatabase
+package com.codecx.musicplayer.musicdatabase
 
 import androidx.room.*
-import com.musicdatabase.entities.Favorites
+import com.codecx.musicplayer.musicdatabase.entities.Favorites
 
 @Dao
 interface FavoriteDao {

@@ -1,9 +1,9 @@
-package com.repo
+package com.codecx.musicplayer.repo
 
-import com.musicdatabase.entities.SongModel
-import com.utils.DatabaseConverterUtils
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment
-import com.musicgraphicalinterfaces.Fragments.PlaylistFragment
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.utils.DatabaseConverterUtils
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.PlaylistFragment
 
 class PlaylistPageRepository() : PlaylistPageRepositoryInterface {
     private var playlistId: Long = 0

@@ -1,6 +1,6 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment
 import java.util.*
 
 object TimeUtils {

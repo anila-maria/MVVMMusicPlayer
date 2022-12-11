@@ -1,4 +1,4 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 object DatabaseConverterUtils {
     fun stringToArraylist(songs: String): ArrayList<String> {

@@ -1,4 +1,4 @@
-package com.repo
+package com.codecx.musicplayer.repo
 
 import com.musicdatabase.entities.SongModel
 import kotlinx.coroutines.CoroutineScope

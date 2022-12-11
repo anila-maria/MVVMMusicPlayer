@@ -1,4 +1,4 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.content.ContentUris
 import android.content.Context
@@ -7,7 +7,7 @@ import android.graphics.BitmapFactory
 import android.net.Uri
 import android.widget.ImageView
 import com.bumptech.glide.Glide
-import com.R
+import com.codecx.musicplayer.R
 import java.io.FileDescriptor
 
 
