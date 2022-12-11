@@ -1,9 +1,9 @@
-package com.musicservices
+package com.codecx.musicplayer.musicservices
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.R
+import com.codecx.musicplayer.R
 
 
 class NotificationBroadcastReceiver: BroadcastReceiver() {

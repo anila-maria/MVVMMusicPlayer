@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.app.Activity
 import android.net.Uri
@@ -9,12 +9,12 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.R
-import com.databinding.FavRvItemBinding
-import com.musicdatabase.entities.SongModel
-import com.helper.Coordinator
-import com.repo.RoomRepository
-import com.utils.ImageUtils
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.FavRvItemBinding
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.repo.RoomRepository
+import com.codecx.musicplayer.utils.ImageUtils
 
 class FavAdapter(
     val context: Activity,

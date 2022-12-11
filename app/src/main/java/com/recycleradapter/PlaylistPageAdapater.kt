@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.app.Activity
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import android.widget.PopupMenu
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.R
-import com.databinding.PlaylistSongRvItemBinding
-import com.musicdatabase.entities.SongModel
-import com.helper.Coordinator
-import com.utils.ImageUtils
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.PlaylistSongRvItemBinding
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.utils.ImageUtils
 
 class PlaylistPageAdapater(var dataset: ArrayList<SongModel>, val context: Activity) :
     RVBaseAdapter() {
