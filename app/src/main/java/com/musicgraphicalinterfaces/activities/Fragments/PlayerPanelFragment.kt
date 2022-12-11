@@ -12,7 +12,6 @@ import com.databinding.FragmentPlayerPanelBinding
 import com.helper.Coordinator
 import com.interfaces.PlayerPanelInterface
 import com.repo.RoomRepository
-import com.musicgraphicalinterfaces.activities.MainActivity
 import com.utils.ImageUtils
 import com.utils.ScreenSizeUtils
 import com.utils.TimeUtils

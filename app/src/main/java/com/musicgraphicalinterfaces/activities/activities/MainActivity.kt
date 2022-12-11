@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.activities
+package com.codecx.musicplayer.musicgraphicalinterfaces.activities
 
 import android.Manifest
 import android.annotation.SuppressLint

@@ -11,7 +11,6 @@ import com.databinding.PlaylistSongRvItemBinding
 import com.musicdatabase.entities.SongModel
 import com.helper.Coordinator
 import com.utils.ImageUtils
-import com.musicgraphicalinterfaces.activities.MainActivity
 
 class PlaylistPageAdapater(var dataset: ArrayList<SongModel>, val context: Activity) :
     RVBaseAdapter() {
