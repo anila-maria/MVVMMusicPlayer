@@ -1,4 +1,4 @@
-package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
+package com.musicgraphicalinterfaces.Fragments
 
 import android.app.Activity
 import android.content.Intent
@@ -12,19 +12,19 @@ import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codecx.musicplayer.R
-import com.codecx.musicplayer.recycleradapter.SongsAdapter
-import com.codecx.musicplayer.baseclasses.BaseFragment
-import com.codecx.musicplayer.databinding.FragmentLibraryBinding
-import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
-import com.codecx.musicplayer.musicdatabase.entities.SongModel
-import com.codecx.musicplayer.helper.Coordinator
-import com.codecx.musicplayer.interfaces.PassDataForSelectPlaylists
-import com.codecx.musicplayer.repo.RoomRepository
-import com.codecx.musicplayer.musicgraphicalinterfaces.dialogs.AddSongToPlaylistDialog
-import com.codecx.musicplayer.utils.beGone
-import com.codecx.musicplayer.utils.beVisible
-import com.codecx.musicplayer.livedataviewmodels.SongsViewModel
+import com.R
+import com.recycleradapter.SongsAdapter
+import com.baseclasses.BaseFragment
+import com.databinding.FragmentLibraryBinding
+import com.musicdatabase.entities.PlaylistModel
+import com.musicdatabase.entities.SongModel
+import com.helper.Coordinator
+import com.interfaces.PassDataForSelectPlaylists
+import com.repo.RoomRepository
+import com.musicgraphicalinterfaces.dialogs.AddSongToPlaylistDialog
+import com.utils.beGone
+import com.utils.beVisible
+import com.livedataviewmodels.SongsViewModel
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 

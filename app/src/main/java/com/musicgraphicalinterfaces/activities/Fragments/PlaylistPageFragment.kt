@@ -6,14 +6,14 @@ import android.view.View
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codecx.musicplayer.R
-import com.codecx.musicplayer.recycleradapter.PlaylistPageAdapater
-import com.codecx.musicplayer.baseclasses.BaseFragment
-import com.codecx.musicplayer.databinding.FragmentPlaylistPageBinding
-import com.codecx.musicplayer.musicdatabase.entities.SongModel
-import com.codecx.musicplayer.utils.beGone
-import com.codecx.musicplayer.utils.beVisible
-import com.codecx.musicplayer.livedataviewmodels.PlaylistPageViewModel
+import com.R
+import com.recycleradapter.PlaylistPageAdapater
+import com.baseclasses.BaseFragment
+import com.databinding.FragmentPlaylistPageBinding
+import com.musicdatabase.entities.SongModel
+import com.utils.beGone
+import com.utils.beVisible
+import com.livedataviewmodels.PlaylistPageViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 
