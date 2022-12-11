@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/fav_rv_item.xml" value="0.12604166666666666" />
-        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_library.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/layout/add_song_to_playlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_playlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_playlist_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/playlist_item.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/playlist_song_rv_item.xml" value="0.125" />
       </map>
     </option>
   </component>
