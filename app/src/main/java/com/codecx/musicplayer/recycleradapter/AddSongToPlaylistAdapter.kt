@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.R
-import com.databinding.AddSongToPlaylistDialogItemBinding
-import com.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.AddSongToPlaylistDialogItemBinding
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
 
 
 class AddSongToPlaylistAdapter(

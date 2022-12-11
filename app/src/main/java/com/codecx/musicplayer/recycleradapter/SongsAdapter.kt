@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import android.app.Activity
 import android.net.Uri
@@ -11,16 +11,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
-import com.R
-import com.databinding.SongRvItemBinding
-import com.musicdatabase.entities.SongModel
-import com.helper.Coordinator
-import com.repo.RoomRepository
-import com.utils.ImageUtils
-import com.utils.SongUtils
-import com.utils.TimeUtils
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment
-import com.musicgraphicalinterfaces.dialogs.SongDetailsDialog
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.SongRvItemBinding
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.repo.RoomRepository
+import com.codecx.musicplayer.utils.ImageUtils
+import com.codecx.musicplayer.utils.SongUtils
+import com.codecx.musicplayer.utils.TimeUtils
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.musicgraphicalinterfaces.dialogs.SongDetailsDialog
 
 
 class SongsAdapter(

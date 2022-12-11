@@ -1,4 +1,4 @@
-package com.recycleradapter
+package com.codecx.musicplayer.recycleradapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

@@ -1,4 +1,4 @@
-package com.musicservices
+package com.codecx.musicplayer.musicservices
 
 import android.annotation.SuppressLint
 import android.app.*
@@ -12,9 +12,9 @@ import android.os.IBinder
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.R
-import com.helper.Coordinator
-import com.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 
 class NotificationPlayerService : Service() {
