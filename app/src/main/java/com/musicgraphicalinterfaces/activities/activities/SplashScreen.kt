@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.activities
+package com.codecx.musicplayer.musicgraphicalinterfaces.activities
 
 import android.os.Bundle
 import com.codecx.musicplayer.R

@@ -14,7 +14,6 @@ import com.baseclasses.BaseFragment
 import com.databinding.FragmentPlaylistBinding
 import com.musicdatabase.entities.PlaylistModel
 import com.interfaces.PassData
-import com.musicgraphicalinterfaces.activities.MainActivity
 import com.musicgraphicalinterfaces.dialogs.CreatePlaylistDialog
 import com.utils.beGone
 import com.utils.beVisible
