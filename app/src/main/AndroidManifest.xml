@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com">
+    package="com.codecx.musicplayer">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -39,7 +39,7 @@
         </provider>
 
         <activity
-            android:name="com.musicgraphicalinterfaces.activities.SplashScreen"
+            android:name="com.codecx.musicplayer.musicgraphicalinterfaces.activities.SplashScreen"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
@@ -53,9 +53,9 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.musicservices.NotificationPlayerService"
+        <service android:name="com.codecx.musicplayer.musicservices.NotificationPlayerService"
             tools:ignore="MissingClass" />
-        <receiver android:name="com.musicservices.NotificationBroadcastReceiver" />
+        <receiver android:name="com.codecx.musicplayer.musicservices.NotificationBroadcastReceiver" />
 
     </application>
 
