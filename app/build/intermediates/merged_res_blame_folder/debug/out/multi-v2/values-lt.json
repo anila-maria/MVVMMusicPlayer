@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.android.application.app-mergeDebugResources-51:/values-lt/values-lt.xml",
+            "outputFile": "com.codecx.musicplayer.app-mergeDebugResources-51:/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/prince/.gradle/caches/transforms-3/cefc074f80bb95ed31e2625c5276c46c/transformed/material-1.7.0/res/values-lt/values-lt.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.android.application.app-mergeDebugResources-51:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.codecx.musicplayer.app-mergeDebugResources-51:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/prince/.gradle/caches/transforms-3/c1c34bf9c09228efe6799e93d10c25ee/transformed/core-1.8.0/res/values-en-rXC/values-en-rXC.xml",

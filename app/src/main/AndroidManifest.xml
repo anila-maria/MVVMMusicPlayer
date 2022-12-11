@@ -53,8 +53,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.codecx.musicplayer.musicservices.NotificationPlayerService"
-            tools:ignore="MissingClass" />
+        <service android:name="com.codecx.musicplayer.musicservices.NotificationPlayerService" />
         <receiver android:name="com.codecx.musicplayer.musicservices.NotificationBroadcastReceiver" />
 
     </application>
