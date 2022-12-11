@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.activities
+package com.codecx.musicplayer.musicgraphicalinterfaces.activities
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -6,16 +6,16 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.FragmentManager
-import com.R
-import com.baseclasses.BaseActivity
-import com.databinding.ActivityMainBinding
-import com.helper.Coordinator
-import com.repo.RoomRepository
-import com.musicservices.NotificationPlayerService
-import com.musicgraphicalinterfaces.Fragments.MainFragment
-import com.musicgraphicalinterfaces.Fragments.PlayerPanelFragment
-import com.utils.PermissionProvider
-import com.utils.ScreenSizeUtils.getScreenHeight
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.baseclasses.BaseActivity
+import com.codecx.musicplayer.databinding.ActivityMainBinding
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.repo.RoomRepository
+import com.codecx.musicplayer.musicservices.NotificationPlayerService
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.MainFragment
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.PlayerPanelFragment
+import com.codecx.musicplayer.utils.PermissionProvider
+import com.codecx.musicplayer.utils.ScreenSizeUtils.getScreenHeight
 import com.sothree.slidinguppanel.SlidingUpPanelLayout
 
 

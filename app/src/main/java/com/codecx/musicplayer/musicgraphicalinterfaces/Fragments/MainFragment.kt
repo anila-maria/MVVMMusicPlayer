@@ -1,13 +1,13 @@
-package com.musicgraphicalinterfaces.Fragments
+package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
 
 import android.os.Bundle
 import android.view.View
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2
-import com.R
-import com.recycleradapter.ViewPagerFragmentAdapter
-import com.baseclasses.BaseFragment
-import com.databinding.FragmentMainBinding
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.recycleradapter.ViewPagerFragmentAdapter
+import com.codecx.musicplayer.baseclasses.BaseFragment
+import com.codecx.musicplayer.databinding.FragmentMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 

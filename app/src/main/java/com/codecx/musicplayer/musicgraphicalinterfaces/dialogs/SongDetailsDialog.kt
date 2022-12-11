@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.dialogs
+package com.codecx.musicplayer.musicgraphicalinterfaces.dialogs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
-import com.R
-import com.databinding.SongDetailsDialogBinding
-import com.musicdatabase.entities.SongModel
-import com.utils.ScreenSizeUtils
-import com.utils.TimeUtils
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.SongDetailsDialogBinding
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.utils.ScreenSizeUtils
+import com.codecx.musicplayer.utils.TimeUtils
 
 class SongDetailsDialog(val song: SongModel) : DialogFragment() {
 

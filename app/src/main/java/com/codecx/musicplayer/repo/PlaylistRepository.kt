@@ -1,12 +1,12 @@
-package com.repo
+package com.codecx.musicplayer.repo
 
 import android.content.ContentValues
 import android.content.Context
 import android.provider.MediaStore
-import com.musicdatabase.entities.PlaylistModel
-import com.repo.RoomRepository.localDatabase
-import com.utils.DatabaseConverterUtils
-import com.utils.FilePathUtlis
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.repo.RoomRepository.localDatabase
+import com.codecx.musicplayer.utils.DatabaseConverterUtils
+import com.codecx.musicplayer.utils.FilePathUtlis
 import kotlinx.coroutines.*
 
 class PlaylistRepository(val context: Context?) :

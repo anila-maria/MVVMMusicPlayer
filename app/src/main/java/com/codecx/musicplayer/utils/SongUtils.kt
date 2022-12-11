@@ -1,4 +1,4 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.app.Activity
 import android.content.Context
@@ -7,10 +7,10 @@ import android.os.Build
 import android.provider.MediaStore
 import androidx.core.app.ActivityCompat
 import androidx.core.content.FileProvider
-import com.BuildConfig
-import com.musicdatabase.entities.SongModel
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment
-import com.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.BuildConfig
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 
 object SongUtils {

@@ -1,10 +1,10 @@
-package com.musicgraphicalinterfaces.activities
+package com.codecx.musicplayer.musicgraphicalinterfaces.activities
 
 import android.os.Bundle
-import com.R
-import com.baseclasses.BaseActivity
-import com.databinding.ActivitySplashBinding
-import com.utils.startNewActivity
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.baseclasses.BaseActivity
+import com.codecx.musicplayer.databinding.ActivitySplashBinding
+import com.codecx.musicplayer.utils.startNewActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

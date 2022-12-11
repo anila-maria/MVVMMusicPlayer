@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.dialogs
+package com.codecx.musicplayer.musicgraphicalinterfaces.dialogs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,11 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
-import com.R
-import com.databinding.CreatePlaylistDialogBinding
-import com.repo.RoomRepository
-import com.utils.ScreenSizeUtils
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.databinding.CreatePlaylistDialogBinding
+import com.codecx.musicplayer.interfaces.PassData
+import com.codecx.musicplayer.repo.RoomRepository
+import com.codecx.musicplayer.utils.ScreenSizeUtils
 
 
 class CreatePlaylistDialog : DialogFragment() {

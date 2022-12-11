@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.dialogs
+package com.codecx.musicplayer.musicgraphicalinterfaces.dialogs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.R
-
-..recycleradapter.AddSongToPlaylistAdapter
-import com.databinding.AddSongToPlaylistBinding
-import com.musicdatabase.entities.PlaylistModel
-import com.utils.ScreenSizeUtils
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.recycleradapter.AddSongToPlaylistAdapter
+import com.codecx.musicplayer.databinding.AddSongToPlaylistBinding
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.interfaces.PassDataForSelectPlaylists
+import com.codecx.musicplayer.utils.ScreenSizeUtils
 
 class AddSongToPlaylistDialog(val array: ArrayList<PlaylistModel>) : DialogFragment() {
 

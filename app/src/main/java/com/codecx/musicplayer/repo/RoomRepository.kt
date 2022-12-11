@@ -1,14 +1,14 @@
-package com.repo
+package com.codecx.musicplayer.repo
 
 import androidx.lifecycle.lifecycleScope
-import com.musicdatabase.MyDatabase
-import com.musicdatabase.entities.Favorites
-import com.musicdatabase.entities.PlaylistModel
-import com.musicdatabase.entities.SongModel
-import com.interfaces.RoomRepositoryInterface
-import com.utils.DatabaseConverterUtils
-import com.utils.SongUtils
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment
+import com.codecx.musicplayer.musicdatabase.MyDatabase
+import com.codecx.musicplayer.musicdatabase.entities.Favorites
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.interfaces.RoomRepositoryInterface
+import com.codecx.musicplayer.utils.DatabaseConverterUtils
+import com.codecx.musicplayer.utils.SongUtils
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment
 import kotlinx.coroutines.*
 
 object RoomRepository : RoomRepositoryInterface{

@@ -1,4 +1,4 @@
-package com.musicdatabase.entities
+package com.codecx.musicplayer.musicdatabase.entities
 
 import android.graphics.Bitmap
 import android.net.Uri

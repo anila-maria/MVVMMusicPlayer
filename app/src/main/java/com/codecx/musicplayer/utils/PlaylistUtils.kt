@@ -1,13 +1,13 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.provider.MediaStore
-import com.R
-import com.musicdatabase.entities.PlaylistModel
-import com.musicdatabase.entities.SongModel
-import com.repo.SongsRepository
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.repo.SongsRepository
 
 
 object PlaylistUtils {
@@ -48,6 +48,42 @@ object PlaylistUtils {
     }
 
 
+//    fun addToPlaylist(context: Context, id: Long, tracks: ArrayList<SongModel>) {
+//
+//        /*
+//       *This code is correct but it has a bug, due to lack of time, I commented  it in this version so that I can check more later
+//       */
+//
+////        add song to the playlist's file
+////        val count = getPlaylistSize(context, id)
+////        val values = arrayOfNulls<ContentValues>(tracks.size)
+////
+////        for (i in tracks.indices) {
+////            values[i] = ContentValues()
+////            values[i]?.put(MediaStore.Audio.Playlists.Members.PLAY_ORDER, i + count + 1)
+////            values[i]?.put(MediaStore.Audio.Playlists.Members.AUDIO_ID, tracks[i].id)
+////        }
+////
+////        val uri = MediaStore.Audio.Playlists.Members.getContentUri("external", id)
+////        val resolver = context.contentResolver
+////        resolver.bulkInsert(uri, values)
+////        resolver.bulkInsert(uri, values)
+////        resolver.notifyChange(Uri.parse(uri.toString()), null)
+//
+//
+////        content://media/external_primary/audio/media/14
+//
+//
+////        add song to the playlist's app array
+//        PlaylistFragment.viewModel?.updateDataset()
+//        for (playlist in PlaylistFragment.viewModel?.getDataSet()!!) {
+//            if (playlist.id == id) {
+//                for (song in tracks) {
+//                    playlist.songs += ",${song.id.toString()}"
+//                }
+//
+//            }
+//        }
 
 }
 

@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.Fragments
+package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
 
 import android.app.Activity
 import android.os.Bundle
@@ -8,15 +8,17 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.R
-import com.recycleradapter.PlaylistAdapter
-import com.baseclasses.BaseFragment
-import com.databinding.FragmentPlaylistBinding
-import com.musicdatabase.entities.PlaylistModel
-import com.musicgraphicalinterfaces.dialogs.CreatePlaylistDialog
-import com.utils.beGone
-import com.utils.beVisible
-import com.livedataviewmodels.PlaylistViewModel
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.recycleradapter.PlaylistAdapter
+import com.codecx.musicplayer.baseclasses.BaseFragment
+import com.codecx.musicplayer.databinding.FragmentPlaylistBinding
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.interfaces.PassData
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.musicgraphicalinterfaces.dialogs.CreatePlaylistDialog
+import com.codecx.musicplayer.utils.beGone
+import com.codecx.musicplayer.utils.beVisible
+import com.codecx.musicplayer.livedataviewmodels.PlaylistViewModel
 
 
 class PlaylistFragment : BaseFragment(R.layout.fragment_playlist), PassData {

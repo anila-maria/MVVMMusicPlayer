@@ -1,18 +1,18 @@
-package com.musicgraphicalinterfaces.Fragments
+package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
 
 import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.R
-import com.recycleradapter.FavAdapter
-import com.baseclasses.BaseFragment
-import com.databinding.FragmentFavoriteBinding
-import com.musicdatabase.entities.SongModel
-import com.utils.beGone
-import com.utils.beVisible
-import com.livedataviewmodels.FavViewModel
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.recycleradapter.FavAdapter
+import com.codecx.musicplayer.baseclasses.BaseFragment
+import com.codecx.musicplayer.databinding.FragmentFavoriteBinding
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.utils.beGone
+import com.codecx.musicplayer.utils.beVisible
+import com.codecx.musicplayer.livedataviewmodels.FavViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class FavoriteFragment : BaseFragment(R.layout.fragment_favorite) {

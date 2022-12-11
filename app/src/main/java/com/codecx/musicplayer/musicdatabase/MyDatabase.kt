@@ -1,12 +1,12 @@
-package com.musicdatabase
+package com.codecx.musicplayer.musicdatabase
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.musicdatabase.entities.Favorites
-import com.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.Favorites
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

@@ -1,7 +1,7 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.graphics.Point
-import com.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 object ScreenSizeUtils {
     fun getScreenHeight(): Int {

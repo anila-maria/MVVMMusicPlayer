@@ -1,7 +1,7 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
-import com.musicdatabase.entities.SongModel
-import com.repo.RoomRepository
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.repo.RoomRepository
 
 fun SongModel.isFavorite(): Boolean
 {

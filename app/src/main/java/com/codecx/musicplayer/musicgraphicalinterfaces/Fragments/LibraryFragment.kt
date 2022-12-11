@@ -1,4 +1,4 @@
-package com.musicgraphicalinterfaces.Fragments
+package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
 
 import android.app.Activity
 import android.content.Intent
@@ -7,23 +7,25 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.core.widget.doOnTextChanged
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.R
-import com.recycleradapter.SongsAdapter
-import com.baseclasses.BaseFragment
-import com.databinding.FragmentLibraryBinding
-import com.musicdatabase.entities.PlaylistModel
-import com.musicdatabase.entities.SongModel
-import com.helper.Coordinator
-import com.repo.RoomRepository
-import com.musicgraphicalinterfaces.dialogs.AddSongToPlaylistDialog
-import com.utils.beGone
-import com.utils.beVisible
-import com.livedataviewmodels.SongsViewModel
+import com.codecx.musicplayer.R
+import com.codecx.musicplayer.recycleradapter.SongsAdapter
+import com.codecx.musicplayer.baseclasses.BaseFragment
+import com.codecx.musicplayer.databinding.FragmentLibraryBinding
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.helper.Coordinator
+import com.codecx.musicplayer.interfaces.PassDataForSelectPlaylists
+import com.codecx.musicplayer.repo.RoomRepository
+import com.codecx.musicplayer.musicgraphicalinterfaces.dialogs.AddSongToPlaylistDialog
+import com.codecx.musicplayer.utils.beGone
+import com.codecx.musicplayer.utils.beVisible
+import com.codecx.musicplayer.livedataviewmodels.SongsViewModel
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
@@ -75,14 +77,13 @@ class LibraryFragment : BaseFragment(R.layout.fragment_library), PassDataForSele
 
     }
 
-   private val binding get() = _binding as FragmentLibraryBinding
-
-
+    private val binding get() = _binding as FragmentLibraryBinding
 
 
     private val songListUpdateObserver = Observer<ArrayList<Any>> { dataset ->
         if (dataset.isNotEmpty()) {
             songsAdapter?.dataset = dataset as ArrayList<SongModel>
+            songsAdapter?.songFilterList = dataset as ArrayList<SongModel>
             binding.mEmpty.beGone()
             binding.songsRv.apply {
                 beVisible()
@@ -187,5 +188,8 @@ class LibraryFragment : BaseFragment(R.layout.fragment_library), PassDataForSele
         notifyDataSetChanges()
 
         RoomRepository.convertFavSongsToRealSongs()
+        binding.txtSearch.editText?.doOnTextChanged { text, start, before, count ->
+            songsAdapter?.filter?.filter(text)
+        }
     }
 }

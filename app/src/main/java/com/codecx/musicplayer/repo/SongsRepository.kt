@@ -1,4 +1,4 @@
-package com.repo
+package com.codecx.musicplayer.repo
 
 import android.annotation.SuppressLint
 import android.content.ContentUris
@@ -7,12 +7,12 @@ import android.database.Cursor
 import android.media.MediaMetadataRetriever
 import android.provider.MediaStore
 import android.provider.MediaStore.Audio.AudioColumns
-import com.musicdatabase.entities.SongModel
-import com.utils.getInt
-import com.utils.getLong
-import com.utils.getString
-import com.utils.FileUtils
-import com.utils.ImageUtils
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.utils.getInt
+import com.codecx.musicplayer.utils.getLong
+import com.codecx.musicplayer.utils.getString
+import com.codecx.musicplayer.utils.FileUtils
+import com.codecx.musicplayer.utils.ImageUtils
 
 class SongsRepository(val context: Context) {
 

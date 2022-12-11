@@ -1,4 +1,4 @@
-package com.utils
+package com.codecx.musicplayer.utils
 
 import android.Manifest
 import android.app.Activity
@@ -6,7 +6,7 @@ import android.content.Context
 import android.content.pm.PackageManager
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.musicgraphicalinterfaces.activities.MainActivity
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 class PermissionProvider: ActivityCompat.OnRequestPermissionsResultCallback {
 
