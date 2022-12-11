@@ -1,4 +1,4 @@
-package com.codecx.musicplayer.utils
+package com.utils
 
 import android.database.Cursor
 import androidx.core.database.getIntOrNull

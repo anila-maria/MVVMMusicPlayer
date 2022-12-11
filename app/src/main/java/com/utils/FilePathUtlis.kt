@@ -1,4 +1,4 @@
-package com.codecx.musicplayer.utils
+package com.r.utils
 
 import android.net.Uri
 import android.os.Environment
