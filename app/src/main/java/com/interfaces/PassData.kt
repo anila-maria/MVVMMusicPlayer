@@ -1,4 +1,4 @@
-package com.interfaces
+package com.codecx.musicplayer.interfaces
 
 interface PassData
 {

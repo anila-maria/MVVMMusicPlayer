@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.app-mergeDebugResources-51:/values-v24/values-v24.xml",
+            "outputFile": "com.android.application.app-mergeDebugResources-51:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/eb5d1eed3a11caf3d4fefdbfb4fbdbff/transformed/appcompat-1.5.0/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/cefc074f80bb95ed31e2625c5276c46c/transformed/material-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/prince/.gradle/caches/transforms-3/cefc074f80bb95ed31e2625c5276c46c/transformed/material-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -33,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/91d6e40503e439e1b77326ffbe47992b/transformed/media-1.6.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/prince/.gradle/caches/transforms-3/eb5d1eed3a11caf3d4fefdbfb4fbdbff/transformed/appcompat-1.5.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/prince/.gradle/caches/transforms-3/91d6e40503e439e1b77326ffbe47992b/transformed/media-1.6.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

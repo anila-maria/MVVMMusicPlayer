@@ -1,6 +1,6 @@
-package com.interfaces
+package com.codecx.musicplayer.interfaces
 
-import com.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
 
 interface PlaylistPageRepositoryInterface
 {

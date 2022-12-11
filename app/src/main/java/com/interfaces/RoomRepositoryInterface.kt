@@ -1,8 +1,8 @@
-package cominterfaces
+package com.codecx.musicplayer.interfaces
 
-import com.musicdatabase.entities.Favorites
-import com.musicdatabase.entities.PlaylistModel
-import com.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.musicdatabase.entities.Favorites
+import com.codecx.musicplayer.musicdatabase.entities.PlaylistModel
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
 
 interface RoomRepositoryInterface {
 

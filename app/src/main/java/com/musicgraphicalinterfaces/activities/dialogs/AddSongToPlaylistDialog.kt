@@ -8,10 +8,10 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.R
-import com..recycleradapter.AddSongToPlaylistAdapter
+
+..recycleradapter.AddSongToPlaylistAdapter
 import com.databinding.AddSongToPlaylistBinding
 import com.musicdatabase.entities.PlaylistModel
-import com.interfaces.PassDataForSelectPlaylists
 import com.utils.ScreenSizeUtils
 
 class AddSongToPlaylistDialog(val array: ArrayList<PlaylistModel>) : DialogFragment() {

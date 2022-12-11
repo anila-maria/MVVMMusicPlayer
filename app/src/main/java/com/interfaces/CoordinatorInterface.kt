@@ -1,8 +1,8 @@
-package com.interfaces
+package com.codecx.musicplayer.interfaces
 
 import android.content.Context
-import com.musicdatabase.entities.SongModel
-import com.helper.MediaPlayerAgent
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.helper.MediaPlayerAgent
 
 interface CoordinatorInterface {
 
