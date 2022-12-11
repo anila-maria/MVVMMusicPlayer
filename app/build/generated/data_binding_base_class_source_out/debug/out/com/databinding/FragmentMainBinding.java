@@ -19,13 +19,13 @@ public abstract class FragmentMainBinding extends ViewDataBinding {
   public final LinearLayout mainLayout;
 
   @NonNull
-  public final View toolbar;
+  public final ComponentAppbarBinding toolbar;
 
   @NonNull
   public final ViewPager2 viewpager;
 
   protected FragmentMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      LinearLayout mainLayout, View toolbar, ViewPager2 viewpager) {
+      LinearLayout mainLayout, ComponentAppbarBinding toolbar, ViewPager2 viewpager) {
     super(_bindingComponent, _root, _localFieldCount);
     this.mainLayout = mainLayout;
     this.toolbar = toolbar;

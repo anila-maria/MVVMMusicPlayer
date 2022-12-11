@@ -8,16 +8,20 @@
         "source": "com.app-main-55:/drawable/ic_favored.xml"
     },
     {
-        "merged": "com.app-merged_res-53:/drawable_playlist.png.flat",
-        "source": "com.app-main-55:/drawable/playlist.png"
-    },
-    {
         "merged": "com.app-merged_res-53:/menu_songs_in_playlist_popup_menu.xml.flat",
         "source": "com.app-main-55:/menu/songs_in_playlist_popup_menu.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/drawable_playlist.png.flat",
+        "source": "com.app-main-55:/drawable/playlist.png"
+    },
+    {
         "merged": "com.app-merged_res-53:/layout_activity_splash.xml.flat",
         "source": "com.app-main-55:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_panel_header_on_collapsed.xml.flat",
+        "source": "com.app-main-55:/layout/panel_header_on_collapsed.xml"
     },
     {
         "merged": "com.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -32,8 +36,16 @@
         "source": "com.app-main-55:/drawable/ic_notification_pause.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_panel_header_on_expanded.xml.flat",
+        "source": "com.app-main-55:/layout/panel_header_on_expanded.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "com.app-debug-54:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_fragment_playlist.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_playlist.xml"
     },
     {
         "merged": "com.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -46,6 +58,14 @@
     {
         "merged": "com.app-merged_res-53:/drawable_ic_play_2_background.xml.flat",
         "source": "com.app-main-55:/drawable/ic_play_2_background.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_fragment_player_panel.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_player_panel.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_song_rv_item.xml.flat",
+        "source": "com.app-main-55:/layout/song_rv_item.xml"
     },
     {
         "merged": "com.app-merged_res-53:/drawable_ic_remote_shuffled.xml.flat",
@@ -160,6 +180,10 @@
         "source": "com.app-main-55:/drawable/ic_remote_next.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_fragment_recently_added.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_recently_added.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/drawable_music2.png.flat",
         "source": "com.app-main-55:/drawable/music2.png"
     },
@@ -188,8 +212,16 @@
         "source": "com.app-main-55:/drawable/ic_remote_previous.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_playlist_item.xml.flat",
+        "source": "com.app-main-55:/layout/playlist_item.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "com.app-debug-54:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_playlist_song_rv_item.xml.flat",
+        "source": "com.app-main-55:/layout/playlist_song_rv_item.xml"
     },
     {
         "merged": "com.app-merged_res-53:/drawable_ic_play__2_.xml.flat",
@@ -236,8 +268,24 @@
         "source": "com.app-main-55:/layout/activity_main.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_create_playlist_dialog.xml.flat",
+        "source": "com.app-main-55:/layout/create_playlist_dialog.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_fav_rv_item.xml.flat",
+        "source": "com.app-main-55:/layout/fav_rv_item.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_add_song_to_playlist_dialog_item.xml.flat",
+        "source": "com.app-main-55:/layout/add_song_to_playlist_dialog_item.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.app-debug-54:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_song_details_dialog.xml.flat",
+        "source": "com.app-main-55:/layout/song_details_dialog.xml"
     },
     {
         "merged": "com.app-merged_res-53:/drawable_ic_play_track_pic_background.xml.flat",
@@ -248,12 +296,28 @@
         "source": "com.app-main-55:/raw/empty.json"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_fragment_favorite.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_favorite.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/drawable_ic_shuffle_pic_background.xml.flat",
         "source": "com.app-main-55:/drawable/ic_shuffle_pic_background.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_add_song_to_playlist.xml.flat",
+        "source": "com.app-main-55:/layout/add_song_to_playlist.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_player_remote.xml.flat",
+        "source": "com.app-main-55:/layout/player_remote.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/drawable_ic_notification_next.xml.flat",
         "source": "com.app-main-55:/drawable/ic_notification_next.xml"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_component_appbar.xml.flat",
+        "source": "com.app-main-55:/layout/component_appbar.xml"
     },
     {
         "merged": "com.app-merged_res-53:/menu_playlists_popup_menu.xml.flat",
@@ -268,12 +332,20 @@
         "source": "com.app-main-55:/drawable/ic_app_icon.xml"
     },
     {
+        "merged": "com.app-merged_res-53:/layout_fragment_library.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_library.xml"
+    },
+    {
         "merged": "com.app-merged_res-53:/drawable_ic_remote_repeat_all.xml.flat",
         "source": "com.app-main-55:/drawable/ic_remote_repeat_all.xml"
     },
     {
         "merged": "com.app-merged_res-53:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "com.app-debug-54:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app-merged_res-53:/layout_fragment_playlist_page.xml.flat",
+        "source": "com.app-main-55:/layout/fragment_playlist_page.xml"
     },
     {
         "merged": "com.app-merged_res-53:/drawable_ic_launcher_2_background.xml.flat",

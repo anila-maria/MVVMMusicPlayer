@@ -23,13 +23,13 @@ public final class BaseBinding implements ViewBinding {
   public final LinearLayout base;
 
   @NonNull
-  public final View includeToolbar;
+  public final ComponentAppbarBinding includeToolbar;
 
   @NonNull
   public final ViewPager2 viewpagerHome;
 
   private BaseBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout base,
-      @NonNull View includeToolbar, @NonNull ViewPager2 viewpagerHome) {
+      @NonNull ComponentAppbarBinding includeToolbar, @NonNull ViewPager2 viewpagerHome) {
     this.rootView = rootView;
     this.base = base;
     this.includeToolbar = includeToolbar;
@@ -70,6 +70,7 @@ public final class BaseBinding implements ViewBinding {
       if (includeToolbar == null) {
         break missingId;
       }
+      ComponentAppbarBinding binding_includeToolbar = ComponentAppbarBinding.bind(includeToolbar);
 
       id = R.id.viewpager_home;
       ViewPager2 viewpagerHome = ViewBindings.findChildViewById(rootView, id);
@@ -77,7 +78,7 @@ public final class BaseBinding implements ViewBinding {
         break missingId;
       }
 
-      return new BaseBinding((LinearLayout) rootView, base, includeToolbar, viewpagerHome);
+      return new BaseBinding((LinearLayout) rootView, base, binding_includeToolbar, viewpagerHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

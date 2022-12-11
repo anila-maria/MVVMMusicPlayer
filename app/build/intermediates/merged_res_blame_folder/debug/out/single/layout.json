@@ -1,18 +1,90 @@
 [
     {
-        "merged": "com.app-mergeDebugResources-52:/layout/activity_main.xml",
-        "source": "com.app-main-55:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.app-mergeDebugResources-52:/layout/base.xml",
         "source": "com.app-main-55:/layout/base.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/song_details_dialog.xml",
+        "source": "com.app-main-55:/layout/song_details_dialog.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_playlist.xml",
+        "source": "com.app-main-55:/layout/fragment_playlist.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/add_song_to_playlist_dialog_item.xml",
+        "source": "com.app-main-55:/layout/add_song_to_playlist_dialog_item.xml"
     },
     {
         "merged": "com.app-mergeDebugResources-52:/layout/fragment_main.xml",
         "source": "com.app-main-55:/layout/fragment_main.xml"
     },
     {
+        "merged": "com.app-mergeDebugResources-52:/layout/song_rv_item.xml",
+        "source": "com.app-main-55:/layout/song_rv_item.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/playlist_item.xml",
+        "source": "com.app-main-55:/layout/playlist_item.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_playlist_page.xml",
+        "source": "com.app-main-55:/layout/fragment_playlist_page.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/panel_header_on_expanded.xml",
+        "source": "com.app-main-55:/layout/panel_header_on_expanded.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/player_remote.xml",
+        "source": "com.app-main-55:/layout/player_remote.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_recently_added.xml",
+        "source": "com.app-main-55:/layout/fragment_recently_added.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/create_playlist_dialog.xml",
+        "source": "com.app-main-55:/layout/create_playlist_dialog.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fav_rv_item.xml",
+        "source": "com.app-main-55:/layout/fav_rv_item.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_player_panel.xml",
+        "source": "com.app-main-55:/layout/fragment_player_panel.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/add_song_to_playlist.xml",
+        "source": "com.app-main-55:/layout/add_song_to_playlist.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/component_appbar.xml",
+        "source": "com.app-main-55:/layout/component_appbar.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/panel_header_on_collapsed.xml",
+        "source": "com.app-main-55:/layout/panel_header_on_collapsed.xml"
+    },
+    {
         "merged": "com.app-mergeDebugResources-52:/layout/activity_splash.xml",
         "source": "com.app-main-55:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/playlist_song_rv_item.xml",
+        "source": "com.app-main-55:/layout/playlist_song_rv_item.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_favorite.xml",
+        "source": "com.app-main-55:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.app-mergeDebugResources-52:/layout/fragment_library.xml",
+        "source": "com.app-main-55:/layout/fragment_library.xml"
     }
 ]
