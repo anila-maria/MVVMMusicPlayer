@@ -6,7 +6,6 @@ import com.codecx.musicplayer.R
 import com.musicdatabase.entities.SongModel
 import com.interfaces.CoordinatorInterface
 import com.musicgraphicalinterfaces.Fragments.LibraryFragment.Library.songsAdapter
-import com.musicgraphicalinterfaces.activities.MainActivity
 
 object Coordinator : CoordinatorInterface {
     override lateinit var nowPlayingQueue: ArrayList<SongModel>

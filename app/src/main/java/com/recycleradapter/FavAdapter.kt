@@ -15,7 +15,6 @@ import com.musicdatabase.entities.SongModel
 import com.helper.Coordinator
 import com.repo.RoomRepository
 import com.utils.ImageUtils
-import com.musicgraphicalinterfaces.activities.MainActivity
 
 class FavAdapter(
     val context: Activity,

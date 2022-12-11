@@ -6,7 +6,6 @@ import android.net.Uri
 import android.os.Build
 import androidx.annotation.RequiresApi
 import com.musicservices.NotificationPlayerService
-import com.musicgraphicalinterfaces.activities.MainActivity
 
 class MediaPlayerAgent(context: Context) {
 
