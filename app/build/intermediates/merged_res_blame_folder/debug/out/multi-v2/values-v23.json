@@ -1,39 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.app-mergeDebugResources-51:/values-v23/values-v23.xml",
+            "outputFile": "com.android.application.app-mergeDebugResources-51:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/700960f1f6dfcd3961e8fe30a28ade76/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/5e876280c8c412fff079642abeca69ff/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "3361",
-                        "endLines": "54",
-                        "endColumns": "12",
-                        "endOffsets": "3506"
-                    }
-                },
-                {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/eb5d1eed3a11caf3d4fefdbfb4fbdbff/transformed/appcompat-1.5.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/prince/.gradle/caches/transforms-3/eb5d1eed3a11caf3d4fefdbfb4fbdbff/transformed/appcompat-1.5.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,7 +23,36 @@
                     }
                 },
                 {
-                    "source": "/Users/anilamariajose/.gradle/caches/transforms-3/cefc074f80bb95ed31e2625c5276c46c/transformed/material-1.7.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/prince/.gradle/caches/transforms-3/5e876280c8c412fff079642abeca69ff/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "3361",
+                        "endLines": "54",
+                        "endColumns": "12",
+                        "endOffsets": "3506"
+                    }
+                },
+                {
+                    "source": "/Users/prince/.gradle/caches/transforms-3/700960f1f6dfcd3961e8fe30a28ade76/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/prince/.gradle/caches/transforms-3/cefc074f80bb95ed31e2625c5276c46c/transformed/material-1.7.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

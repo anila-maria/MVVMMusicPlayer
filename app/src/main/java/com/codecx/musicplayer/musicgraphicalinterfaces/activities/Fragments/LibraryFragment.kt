@@ -19,7 +19,6 @@ import com.databinding.FragmentLibraryBinding
 import com.musicdatabase.entities.PlaylistModel
 import com.musicdatabase.entities.SongModel
 import com.helper.Coordinator
-import com.interfaces.PassDataForSelectPlaylists
 import com.repo.RoomRepository
 import com.musicgraphicalinterfaces.dialogs.AddSongToPlaylistDialog
 import com.utils.beGone

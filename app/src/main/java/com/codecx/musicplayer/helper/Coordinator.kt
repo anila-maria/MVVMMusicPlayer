@@ -1,11 +1,12 @@
-package com.helper
+package com.codecx.musicplayer.helper
 
 import android.content.Context
 import android.support.v4.media.session.PlaybackStateCompat
 import com.codecx.musicplayer.R
-import com.musicdatabase.entities.SongModel
-import com.interfaces.CoordinatorInterface
-import com.musicgraphicalinterfaces.Fragments.LibraryFragment.Library.songsAdapter
+import com.codecx.musicplayer.musicdatabase.entities.SongModel
+import com.codecx.musicplayer.interfaces.CoordinatorInterface
+import com.codecx.musicplayer.musicgraphicalinterfaces.Fragments.LibraryFragment.Library.songsAdapter
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 object Coordinator : CoordinatorInterface {
     override lateinit var nowPlayingQueue: ArrayList<SongModel>

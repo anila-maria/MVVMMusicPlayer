@@ -10,7 +10,6 @@ import com.R
 import com.baseclasses.BaseFragment
 import com.databinding.FragmentPlayerPanelBinding
 import com.helper.Coordinator
-import com.interfaces.PlayerPanelInterface
 import com.repo.RoomRepository
 import com.utils.ImageUtils
 import com.utils.ScreenSizeUtils

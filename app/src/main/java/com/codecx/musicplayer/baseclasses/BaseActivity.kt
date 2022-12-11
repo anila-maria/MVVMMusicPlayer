@@ -1,4 +1,4 @@
-package com.baseclasses
+package com.codecx.musicplayer.baseclasses
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,11 +1,12 @@
-package com.helper
+package com.codecx.musicplayer.helper
 
 import android.content.Context
 import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.musicservices.NotificationPlayerService
+import com.codecx.musicplayer.musicservices.NotificationPlayerService
+import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
 
 class MediaPlayerAgent(context: Context) {
 

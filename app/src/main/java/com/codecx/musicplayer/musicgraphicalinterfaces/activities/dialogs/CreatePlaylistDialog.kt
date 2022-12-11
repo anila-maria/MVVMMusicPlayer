@@ -10,7 +10,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.DialogFragment
 import com.R
 import com.databinding.CreatePlaylistDialogBinding
-import com.interfaces.PassData
 import com.repo.RoomRepository
 import com.utils.ScreenSizeUtils
 

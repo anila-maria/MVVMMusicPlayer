@@ -1,10 +1,10 @@
-package com.appclass
+package com.codecx.musicplayer.appclass
 
 import android.app.Application
-import com.repo.FavRepository
-import com.repo.PlaylistPageRepository
-import com.livedataviewmodels.FavViewModel
-import com.livedataviewmodels.PlaylistPageViewModel
+import com.codecx.musicplayer.repo.FavRepository
+import com.codecx.musicplayer.repo.PlaylistPageRepository
+import com.codecx.musicplayer.livedataviewmodels.FavViewModel
+import com.codecx.musicplayer.livedataviewmodels.PlaylistPageViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.androidx.viewmodel.dsl.viewModel
