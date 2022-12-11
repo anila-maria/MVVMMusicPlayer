@@ -1,4 +1,4 @@
-package com.codecx.musicplayer.musicgraphicalinterfaces.Fragments
+package com.musicgraphicalinterfaces.Fragments
 
 import android.os.Build
 import android.os.Bundle
@@ -6,17 +6,17 @@ import android.os.Handler
 import android.support.v4.media.session.PlaybackStateCompat
 import android.view.View
 import androidx.annotation.RequiresApi
-import com.codecx.musicplayer.R
-import com.codecx.musicplayer.baseclasses.BaseFragment
-import com.codecx.musicplayer.databinding.FragmentPlayerPanelBinding
-import com.codecx.musicplayer.helper.Coordinator
-import com.codecx.musicplayer.interfaces.PlayerPanelInterface
-import com.codecx.musicplayer.repo.RoomRepository
-import com.codecx.musicplayer.musicgraphicalinterfaces.activities.MainActivity
-import com.codecx.musicplayer.utils.ImageUtils
-import com.codecx.musicplayer.utils.ScreenSizeUtils
-import com.codecx.musicplayer.utils.TimeUtils
-import com.codecx.musicplayer.utils.isFavorite
+import com.R
+import com.baseclasses.BaseFragment
+import com.databinding.FragmentPlayerPanelBinding
+import com.helper.Coordinator
+import com.interfaces.PlayerPanelInterface
+import com.repo.RoomRepository
+import com.musicgraphicalinterfaces.activities.MainActivity
+import com.utils.ImageUtils
+import com.utils.ScreenSizeUtils
+import com.utils.TimeUtils
+import com.utils.isFavorite
 import com.frolo.waveformseekbar.WaveformSeekBar
 import com.sothree.slidinguppanel.SlidingUpPanelLayout
 import kotlin.random.Random
